@@ -12,7 +12,7 @@ const CardES = ({name, elevation, elevation_meters, lastEruption, location, id, 
 		 	  <p> <strong>Elevación:</strong> {elevation_meters}</p>
 		 	  <p> <strong>Última Erupción:</strong> {lastEruption} </p>
 		 	  <p> <strong>Ubicación:</strong> {location} </p>
-		 	  <button className='addButton' onClick={() => markedAsClimbed(id)}>Mark as <br/> Climbed</button>
+		 	  <button className='addButton' onClick={() => markedAsClimbed(id)}>Incluir como <br/> escalado</button>
 		 	 
 			 
 		 </div>
@@ -28,7 +28,7 @@ const CardES = ({name, elevation, elevation_meters, lastEruption, location, id, 
 		 	  <p> <strong>Elevación:</strong> {elevation_meters}</p>
 		 	  <p> <strong>Última Erupción:</strong> {lastEruption} </p>
 		 	  <p> <strong>Ubicación:</strong> {location} </p>
-		 	  <button className='removeButton' onClick={() => unmarkedAsClimbed(id)}>Remove from Climbed List</button>
+		 	  <button className='removeButton' onClick={() => unmarkedAsClimbed(id)}>Remover de la lista <br/> de escalados </button>
 		 	 
 			 
 		 </div>
