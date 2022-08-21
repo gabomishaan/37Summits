@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const CardES = ({name, elevation, elevation_meters, lastEruption, location, id, num, status, markedAsClimbed, unmarkedAsClimbed}) => {
+const CardES = ({name, elevation, elevation_meters, lastEruptionES, location, id, num, status, markedAsClimbed, unmarkedAsClimbed}) => {
 	if(!status){
 	 return (
 
@@ -10,7 +10,7 @@ const CardES = ({name, elevation, elevation_meters, lastEruption, location, id, 
 			<img  alt='Volcanoes' className='shadow-1' src={require(`../Photos/${name}.JPG`)} width={240} height={160} />
 		 <div>
 		 	  <p> <strong>Elevación:</strong> {elevation_meters}</p>
-		 	  <p> <strong>Última Erupción:</strong> {lastEruption} </p>
+		 	  <p> <strong>Última Erupción:</strong> {lastEruptionES} </p>
 		 	  <p> <strong>Ubicación:</strong> {location} </p>
 		 	  <button className='addButton' onClick={() => markedAsClimbed(id)}>Incluir como <br/> escalado</button>
 		 	 
@@ -26,7 +26,7 @@ const CardES = ({name, elevation, elevation_meters, lastEruption, location, id, 
 			<img  alt='Volcanoes' className='shadow-1' src={require(`../Photos/${name}.JPG`)} width={240} height={160} />
 		 <div>
 		 	  <p> <strong>Elevación:</strong> {elevation_meters}</p>
-		 	  <p> <strong>Última Erupción:</strong> {lastEruption} </p>
+		 	  <p> <strong>Última Erupción:</strong> {lastEruptionES} </p>
 		 	  <p> <strong>Ubicación:</strong> {location} </p>
 		 	  <button className='removeButton' onClick={() => unmarkedAsClimbed(id)}>Remover de la lista <br/> de escalados </button>
 		 	 

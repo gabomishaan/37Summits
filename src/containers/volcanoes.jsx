@@ -7,6 +7,7 @@ export const volcanoes = [
     elevation_meters: '3,976 m',
     elevation_number: 13044,
     lastEruption: '1972',
+    lastEruptionES: '1972',
     location: '14°30′02″N 90°52′33″W',
     status: false
   },
@@ -18,6 +19,7 @@ export const volcanoes = [
     elevation_meters: '3,766 m',
     elevation_number: 12356,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°27′53″N 90°44′35″W',
     status: false
   },
@@ -29,6 +31,7 @@ export const volcanoes = [
     elevation_meters: '3,197 m',
     elevation_number: 10489,
     lastEruption: '1818',
+    lastEruptionES: '1818',
     location: '14°49′00″N 91°29′00″W',
     status: false
   },
@@ -39,7 +42,8 @@ export const volcanoes = [
     elevation: '6,726 ft',
     elevation_meters: '2,050 m',
     elevation_number: 6726,
-    lastEruption: 'Not Active’',
+    lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°28′42″N 90°2′2″W',
     status: false
   },
@@ -51,6 +55,7 @@ export const volcanoes = [
     elevation_meters: '1,544 m',
     elevation_number: 5066,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°18′3′′N 89°59′0′′W',
     status: false
   },
@@ -62,6 +67,7 @@ export const volcanoes = [
     elevation_meters: '3,537 m',
     elevation_number: 11604,
     lastEruption: '1853',
+    lastEruptionES: '1853',
     location: '14°34′58″N 91°11′11″W',
     status: false
   },
@@ -73,6 +79,7 @@ export const volcanoes = [
     elevation_meters: '1,267 m',
     elevation_number: 4157,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°22′9′′N 90°25′13′′W',
     status: false
   },
@@ -84,6 +91,7 @@ export const volcanoes = [
     elevation_meters: '2,900 m',
     elevation_number: 9514,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°47′3′′N 91°39′57′′W',
     status: false
   },
@@ -95,6 +103,7 @@ export const volcanoes = [
     elevation_meters: '1,775 m',
     elevation_number: 5823,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°07′00″N 89°44′00″W',
     status: false
   },
@@ -106,6 +115,7 @@ export const volcanoes = [
     elevation_meters: '1,690 m',
     elevation_number: 5545,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°10′16″N 90°16′40″W',
     status: false
   },
@@ -117,6 +127,7 @@ export const volcanoes = [
     elevation_meters: '1,027 m',
     elevation_number: 3369,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°17′50″N 89°52′40″W',
     status: false
   },
@@ -128,6 +139,7 @@ export const volcanoes = [
     elevation_meters: '3,004 m',
     elevation_number: 9856,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°53′19″N 91°23′52″W',
     status: false
   },
@@ -139,6 +151,7 @@ export const volcanoes = [
     elevation_meters: '3,763 m',
     elevation_number: 12346,
     lastEruption: '2022',
+    lastEruptionES: '2022',
     location: '14°28′22″N 90°52′49″W',
     status: false
   },
@@ -150,6 +163,7 @@ export const volcanoes = [
     elevation_meters: '1,650 m',
     elevation_number: 5413,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°33′00″N 89°38′00″W',
     status: false
   },
@@ -161,6 +175,7 @@ export const volcanoes = [
     elevation_meters: '1,292 m',
     elevation_number: 4239,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°25′00″N 89°41′00″W',
     status: false
   },
@@ -172,6 +187,7 @@ export const volcanoes = [
     elevation_meters: '2,176 m',
     elevation_number: 7139,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°41′35″N 89°59′35″W',
     status: false
   },
@@ -183,6 +199,7 @@ export const volcanoes = [
     elevation_meters: '1,815 m',
     elevation_number: 5955,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°20′08″N 90°16′10″W',
     status: false
   },
@@ -194,6 +211,7 @@ export const volcanoes = [
     elevation_meters: '2,770 m',
     elevation_number: 9088,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°47′3′′N 91°39′57′′′vW',
     status: false
   },
@@ -205,6 +223,7 @@ export const volcanoes = [
     elevation_meters: '1,070 m',
     elevation_number: 3510,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°12′46′′N 89°43′35′′W',
     status: false
   },
@@ -216,6 +235,7 @@ export const volcanoes = [
     elevation_meters: '1,285 m',
     elevation_number: 4216,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°33′3′N 89°45′′W',
     status: false
   },
@@ -227,6 +247,7 @@ export const volcanoes = [
     elevation_meters: '1,662 m',
     elevation_number: 5453,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°02′00″N 90°06′00″W',
     status: false
   },
@@ -238,6 +259,7 @@ export const volcanoes = [
     elevation_meters: '2,550 m',
     elevation_number: 8366,
     lastEruption: '2022',
+    lastEruptionES: '2022',
     location: '14°22′51″N 90°36′04″W',
     status: false
   },  
@@ -249,6 +271,7 @@ export const volcanoes = [
     elevation_meters: '1,904 m',
     elevation_number: 6247,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°34′00″N 89°27′00″W',
     status: false
   }, 
@@ -260,6 +283,7 @@ export const volcanoes = [
     elevation_meters: '2,514 m',
     elevation_number: 8248,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°57′36″N 91°44′15″W″',
     status: false
   }, 
@@ -271,6 +295,7 @@ export const volcanoes = [
     elevation_meters: '3,020 m',
     elevation_number: 9908,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°39′21″N 91°15′57″W',
     status: false
   },  
@@ -282,6 +307,7 @@ export const volcanoes = [
     elevation_meters: '3,772 m',
     elevation_number: 12375,
     lastEruption: '2013',
+    lastEruptionES: '2013',
     location: '14°45′21″N 91°33′06″W',
     status: false
   },
@@ -293,6 +319,7 @@ export const volcanoes = [
     elevation_meters: '2,500 m',
     elevation_number: 8202,
     lastEruption: '2022',
+    lastEruptionES: '2022',
     location: '14°44′22″N 91°34′05″W',
     status: false
   },
@@ -304,6 +331,7 @@ export const volcanoes = [
     elevation_meters: '3,505 m',
     elevation_number: 11499,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°42′37″N 91°28′43″W',
     status: false
   },
@@ -315,6 +343,7 @@ export const volcanoes = [
     elevation_meters: '3,370 m',
     elevation_number: 11056,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°48′53″N 91°37′04″W',
     status: false
   },
@@ -326,6 +355,7 @@ export const volcanoes = [
     elevation_meters: '2,042 m',
     elevation_number: 6699,
     lastEruption: '1469',
+    lastEruptionES: '1469',
     location: '14°24′00″N 89°47′00″W',
     status: false
   },
@@ -337,6 +367,7 @@ export const volcanoes = [
     elevation_meters: '4,093 m',
     elevation_number: 13428,
     lastEruption: '1986',
+    lastEruptionES: '1986',
     location: '15°07′48″N 92°06′45″W',
     status: false
   },
@@ -348,6 +379,7 @@ export const volcanoes = [
     elevation_meters: '1,716 m',
     elevation_number: 5630,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°26′00″N 89°54′00″W',
     status: false
   },
@@ -359,6 +391,7 @@ export const volcanoes = [
     elevation_meters: '4,220 m',
     elevation_number: 13845,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '15°02′04″N 91°54′12″W',
     status: false
   },
@@ -370,6 +403,7 @@ export const volcanoes = [
     elevation_meters: '1,962 m',
     elevation_number: 6437,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°09′22″N 90°24′25″W',
     status: false
   },
@@ -381,6 +415,7 @@ export const volcanoes = [
     elevation_meters: '2,087 m',
     elevation_number: 6847,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°48′9′′N 89° 54′12′′W',
     status: false
   },
@@ -392,6 +427,7 @@ export const volcanoes = [
     elevation_meters: '3,158 m',
     elevation_number: 10361,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°36′45″N 91°11′21″W',
     status: false
   },
@@ -403,6 +439,7 @@ export const volcanoes = [
     elevation_meters: '3,524 m',
     elevation_number: 11621,
     lastEruption: 'Not Active',
+    lastEruptionES: 'Inactivo',
     location: '14°44′3′′N 91°26′59′′W',
     status: false
   },

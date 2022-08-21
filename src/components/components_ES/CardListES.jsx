@@ -12,7 +12,7 @@ const CardListES = ({volcanoes, markedAsClimbed, unmarkedAsClimbed}) => {
 						 num={volcanoes[i].id}
 						 name={volcanoes[i].name} 
 						 elevation={volcanoes[i].elevation}
-						 lastEruption={volcanoes[i].lastEruption} 
+						 lastEruptionES={volcanoes[i].lastEruptionES} 
 						 location={volcanoes[i].location} 
 						 status={volcanoes[i].status}
 						 elevation_meters={volcanoes[i].elevation_meters}
