@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/37Summits/static/css/main.a7a24d3a.css",
-    "main.js": "/37Summits/static/js/main.aab11536.js",
+    "main.js": "/37Summits/static/js/main.3f6b0355.js",
     "static/js/787.ee3def87.chunk.js": "/37Summits/static/js/787.ee3def87.chunk.js",
     "static/media/bgImage.jpg": "/37Summits/static/media/bgImage.e0677920935c95f4cc8a.jpg",
     "static/media/Jumay.JPG": "/37Summits/static/media/Jumay.1add4bb1ff17be3a737c.JPG",
@@ -44,11 +44,11 @@
     "static/media/SEGA.woff": "/37Summits/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
     "index.html": "/37Summits/index.html",
     "main.a7a24d3a.css.map": "/37Summits/static/css/main.a7a24d3a.css.map",
-    "main.aab11536.js.map": "/37Summits/static/js/main.aab11536.js.map",
+    "main.3f6b0355.js.map": "/37Summits/static/js/main.3f6b0355.js.map",
     "787.ee3def87.chunk.js.map": "/37Summits/static/js/787.ee3def87.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a7a24d3a.css",
-    "static/js/main.aab11536.js"
+    "static/js/main.3f6b0355.js"
   ]
 }
