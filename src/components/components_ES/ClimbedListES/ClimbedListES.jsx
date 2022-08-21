@@ -72,7 +72,7 @@ else{
       })
         }
 
-      <h3 className='Climbed'>Eso es una ganancia de elevación total de {Math.round(totalElevation).toLocaleString()} m, ¡wow!</h3>
+      <h3 className='Climbed'>Eso es una ganancia de elevación total de {Math.round(totalElevation).toLocaleString()} m, ¡Wow!</h3>
       </>
   )
 }

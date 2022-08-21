@@ -9,6 +9,7 @@ import Sort from '../components/Sort'
 import ClimbedList from '../components/ClimbedList/ClimbedList';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
+import ScrollText from '../components/ScrollText';
 
 
 import NavigationES from '../components/components_ES/NavigationES/NavigationES'
@@ -136,16 +137,16 @@ class App extends Component {
 			this.state.route === 'about'
 			? <div className='tc Homepage'>
 			<h1 className='subtitle'>  About </h1>
-			<Scroll>
+			<ScrollText>
 			<h3 className='aboutText'>Join the challenge to reach the summit of all of the 37 volcanoes in Guatemala! <br/> The 37 Summits challenge began as a way to bring nature enthusiasts together and to promote Guatemala's natural beauty. <br/> The challenge is typically comlpeted over a period of 2 years, at a pace of approximately one volcano per month. <br/> Famously completed in just 8 days, 11 hours and 30 minutes by experienced mountaineers Juan Carlos Sagastume and Willie Benegas, <br/> the 37 Summits challenge has inspired professionals and novices alike. </h3>
 			<h3>Whether you are an avid hiker, looking to break records, or simply want to spend more time exploring nature; use this portal to keep track of your progress!</h3>
-			</Scroll>
+			</ScrollText>
 			</div>
 			:(
 			<div className='tc'>
-			<Scroll className=''>
+			<ScrollText className=''>
 			<ClimbedList volcanoes={filteredVolcanoes} unmarkedAsClimbed={this.unmarkedAsClimbed} />
-			</Scroll>
+			</ScrollText>
 			</div>)
 
 			)
@@ -178,16 +179,16 @@ this.state.route === 'home'
 			this.state.route === 'about'
 			? <div className='tc Homepage'>
 			<h1 className='subtitle'>  Información </h1>
-			<Scroll>
+			<ScrollText>
 			<h3 className='aboutText'>¡Únete al desafío de llegar a la cima de los 37 volcanes de Guatemala! <br/> El reto 37 Cumbres comenzó como una manera de unir a los amantes de la naturaleza y promover la belleza natural de Guatemala. <br/> El desafío generalmente se completa en un período de 2 años, a un ritmo aproximado de un volcán por mes. <br/> Célebremente completado en solo 8 días, 11 horas y 30 minutos por los alpinistas consumados Juan Carlos Sagastume y Willie Benegas, <br/> el desafío de las 37 Cumbres ha inspirado a profesionales y principiantes por igual. </h3>
 			<h3>Ya seas un ávido senderista, buscas batir récords o simplemente quieres pasar más tiempo explorando la naturaleza, <br/> ¡utiliza este portal para mantener un record de tu progreso!</h3>
-			</Scroll>
+			</ScrollText>
 			</div>
 			:(
 			<div className='tc'>
-			<Scroll className=''>
+			<ScrollText className=''>
 			<ClimbedListES volcanoes={filteredVolcanoes} unmarkedAsClimbed={this.unmarkedAsClimbed} />
-			</Scroll>
+			</ScrollText>
 			</div>)
 
 			)

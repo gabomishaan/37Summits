@@ -16,6 +16,13 @@
 
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 100fr));
+  padding: 1.5rem;
+
+}
+
 
 @font-face {
     font-family: 'SEGA LOGO FONT';
