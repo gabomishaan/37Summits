@@ -20,7 +20,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 100fr));
   padding: 1.5rem;
-
+  grid-template-rows: repeat(auto-fill, minmax(450px, 100fr));
 }
 
 
